@@ -1,0 +1,38 @@
+.feature{
+    background-color: #fff;
+&__list{
+    display: flex;
+    justify-content: space-between;
+}
+&__item{
+    width: 270px;
+}
+&__name{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom:10px ;
+}
+&__text{
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #757575;
+}
+}
+.case{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background: rgba(245, 244, 250, 1);
+    margin-bottom: 30px;
+    border-radius: 4px;
+    fill: #F5F4FA;
+}
+.box{
+    padding: 30px 32px;
+}
